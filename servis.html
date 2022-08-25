@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="servis.css">
+    <meta property="og:image" content="logo1">
+    <title>S-servis</title>
+</head>
+<body>
+    <header>
+        
+        <ul>
+            <li><a onclick="alert('Ovo je početna stranica')" >Početna</a></li>
+            <li><a  href="#Cjenovnik">Cjenovnik</a></li>
+            <li><a href="https://github.com/JSstefan">Kontakt</a></li>
+            <li style="float:right"><a class="active" href="https://www.google.com/maps/place/Novi+Sad,+Serbia/@45.2635979,19.807832,13.5z/data=!4m5!3m4!1s0x475b10613de93455:0xb6f7d683724fe28!8m2!3d45.2396085!4d19.8227056">Lokacija</a></li>
+        </ul>
+          
+        <img src="logo1.jpeg">
+
+        <div class="container" style="text-align: center;">
+            <h1 class="typed-out">Dobrodošli</h1>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <div class="w3-display-container mySlides">
+            <img src="pc.jpg" style="width: 1670px">
+            <div class="text-block">
+                <h4>Popravak laptopova</h4>
+                <div class="text-block">
+
+                </div>
+            </div>
+            <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+              
+            </div>
+          </div>
+
+          <div class="w3-display-container mySlides">
+            <img src="laptopi.jpg" style="width:1670px">
+            <div class="text-block">
+                <h4>Prodaja i otkup laptopa po povoljnim cijenama</h4>
+                <div class="text-block">
+
+                </div>
+            </div>
+            <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+              
+            </div>
+          </div>
+
+          <div class="w3-display-container mySlides">
+            <img src="telefon.jpg" style="width: 1670px;">
+            <div class="text-block">
+                <h4>Prodaja i otkup telefona po povoljnim cijenama</h4>
+                <div class="text-block">
+
+                </div>
+            </div>
+            <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+              
+            </div>
+          </div>
+        </div>
+
+        <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+
+        <section id="Cjenovnik">
+            <h3>Cjenovnik za laptop / desktop</h3> 
+            <button type="button" onclick="alert('Cjenovnik za telefone će uskoro biti gotov')">Cjenovnik za telefone</button>
+            
+
+            <table>
+                <tr>
+                  <th>Usluga</th>
+                  <th>Cijena</th>
+                  <th>Ostalo</th>
+                </tr>
+                <tr>
+                  <td>Instalacija sistema</td>
+                  <td>2000rsd</td>
+                  <td>Popravka monitora od 1500 rsd</td>
+                </tr>
+                <tr>
+                  <td>Čišćenje virusa </td>
+                  <td>2000rsd</td>
+                  <td>Spašavanje podataka od 3000 dinara</td>
+                </tr>
+                    <td>Čišćenje prašine</td>
+                    <td>2000rsd</td>
+                    <td>Sitne električne popravke od 500 rsd</td>
+                <tr>
+                    <td>Zamena wifi kartice</td>
+                    <td>1000rsd</td>
+                    <td>Sitne električne popravke od 500 rsd</td>
+                </tr>
+                <tr>
+                    <td>Instalacija programa</td>
+                    <td>500 rsd po programu</td>
+                    <td>Terenski servis - 1000 rsd dolazak + cena usluge</td>
+                </tr>
+                <tr>
+                    <td>Zamena SSD </td>
+                    <td>Besplatno ako instaliramo sistem</td>
+                    <td>Reklamiranje firme od 50 evra mesečno</td>
+                </tr>
+
+              </table>
+        </section>
+        
+        <section id="kontakt">
+            <h3>Kontaktirajte nas</h3>
+            <input type="text" placeholder="Marko Markovič"><br>
+            <input type="email" placeholder="markomarković@gmail.com">
+            <br>
+            <textarea  cols="30" rows="10" placeholder="Vaš komentar..." ></textarea>
+            <button onclick="alert('Usluga slanja još uvijek moguća')">Pošalji</button>
+        </section>
+        
+          
+        
+        <footer>
+            <a href="https://www.linkedin.com/in/stefan-savi%C4%87-3b2812242/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/JSstefan"><i class="fa-brands fa-github"></i></a>
+            <a  href="stefansavic072@gmail.com"><i class="fa-solid fa-envelope"></i></a><hr>
+            <p align="center">&copy 2022 Made by Stefan Savić</p>
+        </footer>
+
+<script src="servis.js"></script>
+<script src="https://kit.fontawesome.com/184672f725.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
